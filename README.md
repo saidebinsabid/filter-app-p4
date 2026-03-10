@@ -2,6 +2,8 @@
 
 ![App Preview](https://img.shields.io/badge/Status-Active-brightgreen.svg) ![Technologies](https://img.shields.io/badge/Tech-HTML5_|_CSS3_|_Vanilla_JS-blue.svg) ![AI Powered](https://img.shields.io/badge/Powered_by-p5.js_&_ml5.js-purple.svg)
 
+**🚀 Live Demo:** [https://saidebinsabid.github.io/filter-app-p4/](https://saidebinsabid.github.io/filter-app-p4/)
+
 The **AI Face Filter** is a fun, interactive web application that uses your webcam and artificial intelligence to track your facial movements. It dynamically places a "funny sunglasses" filter accurately over your eyes in real-time. Designed with a professional, raw CSS dark-mode aesthetic, it offers a lucrative desktop experience without the need for complex frameworks.
 
 ## ✨ Features
