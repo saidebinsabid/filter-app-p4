@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Pro Filter App</title>
+
+	<!-- Link to our Custom Raw CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Required Libraries for AI and Canvas -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+	<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Main App Wrapper -->
+	<div class="app-container">
+
+		<!-- Header Section -->
+		<header class="app-header">
+			<h1 class="title">🎭 AI Face Filter</h1>
+			<p class="subtitle">Real-time pose estimation powered by Machine Learning.</p>
+		</header>
+
+		<!-- Main Workspace -->
+		<main class="workspace">
+			<!-- This is where p5.js will inject the video canvas -->
+			<div class="canvas-wrapper" id="canvas-container">
+				<div class="loading-text" id="loading-indicator">Loading AI Model...</div>
+			</div>
+
+			<!-- Action Controls -->
+			<div class="controls">
+				<button class="btn-capture" onclick="takeSnapshot()">
+					<span class="icon">📸</span> Take Snapshot
+				</button>
+			</div>
+		</main>
+
+	</div>
+
+	<!-- Link to our simplified JavaScript logic -->
+	<script src="script.js"></script>
+</body>
+
+</html>
